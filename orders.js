@@ -29,8 +29,18 @@
     stored on the object.
 */
 
-//CODE HERE
-
+class Ticket {
+    constructor(items, orderTime, customerId){
+        this.status = 'queued'
+        this.Id = customerId
+    }
+    updateStatus(newStatus){
+        this.status = newStatus;
+        console.log(`The order for customer ${this.Id} is now ${this.status}.`)
+    }
+}
+// let ticket1 = new Ticket(3, 25, 64323)
+// ticket1.updateStatus("ready")
 
 
 /*
@@ -44,8 +54,7 @@
     customer: 575
 */
 
-//CODE HERE
-
+let firstTicket = new Ticket("pizza, bread, and soda", "7:03 PM", 575)
 
 /*
     Call the `updateStatus` method on
@@ -53,4 +62,4 @@
     'cooking'
 */
 
-//CODE HERE
+firstTicket.updateStatus("cooking")

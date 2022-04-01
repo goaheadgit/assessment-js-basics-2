@@ -91,8 +91,48 @@ const {category} = pizza;
     data in some functions that you'll write.
 */
 
-//CODE HERE
-
+let foodArr = [
+   {
+    'name': 'Meat Lover\'s',
+    price: 30,
+    'category': "entree",
+    popularity: 9,
+    rating: 8,
+    tags: ["beef", "pork", "marinara"],
+   },
+   {
+    'name': 'Philly Chese Steak',
+    price: 30,
+    'category': "entree",
+    popularity: 7,
+    rating: 8,
+    tags: ["beef", "white sauce"],
+   },
+   {
+    'name': 'Chicken Bacon Ranch',
+    price: 30,
+    'category': "entree",
+    popularity: 8,
+    rating: 8,
+    tags: ["chicken", "white sauce"],
+   },
+   {
+    'name': 'breadsticks',
+    price: 10,
+    'category': "appetizer",
+    popularity: 10,
+    rating: 10,
+    tags: ["yum", "no meat", "marinara"],
+   },
+   {
+    'name': 'soda',
+    price: 5,
+    'category': "drink",
+    popularity: 7,
+    rating: 5,
+    tags: ["pepsi product", "coke product"],
+   }
+]
 
 
 //////////////////PROBLEM 4////////////////////

@@ -125,7 +125,7 @@ const deals = [
     to replace the 15 with a 10.
 */
 
-deals["title"] = '10% Off!';
+deals[0]["title"] = '10% Off!';
 // console.log(deals.title)
 
 /*
